@@ -51,3 +51,8 @@ svg {
 .line2 {
   animation: line2 1s;
 }
+
+@keyframes line2 {
+  0% {
+    stroke-dasharray: 0, 480;
+  }
